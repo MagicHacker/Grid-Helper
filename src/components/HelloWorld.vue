@@ -21,5 +21,7 @@ export default {
 <style scoped>
 p {
   font-size: 20px;
+  padding: 0px;
+  margin: 0px;
 }
 </style>

@@ -12,8 +12,11 @@ export default {
 </script>
 
 <style>
-html {
-  width: 400px;
-  height: 400px;
+html,
+body {
+  width: 200px;
+  height: 200px;
+  padding: 0px;
+  margin: 0px;
 }
 </style>
