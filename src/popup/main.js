@@ -1,7 +1,7 @@
 import Vue from "vue";
 import App from "./App.vue";
-import { Switch } from "element-ui";
-[Switch].forEach((item) => {
+import { Switch, ColorPicker } from "element-ui";
+[Switch, ColorPicker].forEach((item) => {
   Vue.use(item);
 });
 new Vue({
