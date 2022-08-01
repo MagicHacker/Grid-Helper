@@ -17,8 +17,8 @@ export default {
 <style>
 html,
 body {
-  width: 240px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   padding: 12px;
   margin: 0px;
 }
