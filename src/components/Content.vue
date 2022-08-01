@@ -1,16 +1,16 @@
 <template>
   <div class="content-wrapper">
-    <el-form label-width="70px" label-position="right" size="mini">
+    <el-form
+      label-width="70px"
+      :model="formData"
+      label-position="right"
+      size="mini"
+    >
       <el-form-item label="switch"
-        ><el-switch
-          v-model="value"
-          active-color="#13ce66"
-          inactive-color="#ff4949"
-        >
-        </el-switch
+        ><el-switch v-model="formData.switchValue"> </el-switch
       ></el-form-item>
       <el-form-item label="palette"
-        ><el-color-picker v-model="color"></el-color-picker
+        ><el-color-picker v-model="formData.color"></el-color-picker
       ></el-form-item>
       <el-form-item label="column">
         <el-input placeholder="columns"></el-input>
@@ -23,8 +23,10 @@ export default {
   name: "Content",
   data() {
     return {
-      value: true,
-      color: "#409EFF",
+      formData: {
+        switchValue: false,
+        color: "#d5f1df",
+      },
     };
   },
 };
