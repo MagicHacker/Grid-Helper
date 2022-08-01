@@ -14,7 +14,6 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 16px;
   .header-logo {
     width: 40px;
     height: 40px;

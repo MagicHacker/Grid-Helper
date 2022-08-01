@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="app-wrapper">
     <Header />
     <Content />
   </div>
@@ -17,9 +17,9 @@ export default {
 <style>
 html,
 body {
-  width: 200px;
+  width: 240px;
   height: 200px;
-  padding: 0px;
+  padding: 12px;
   margin: 0px;
 }
 </style>
