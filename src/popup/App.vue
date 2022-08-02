@@ -15,11 +15,18 @@ export default {
 </script>
 
 <style>
-html,
 body {
   width: 300px;
-  height: 300px;
+  height: 250px;
   padding: 12px;
   margin: 0px;
+}
+.app-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 </style>

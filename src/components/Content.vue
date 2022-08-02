@@ -34,6 +34,5 @@ export default {
 <style lang="scss" scoped>
 .content-wrapper {
   width: 210px;
-  height: 100%;
 }
 </style>
